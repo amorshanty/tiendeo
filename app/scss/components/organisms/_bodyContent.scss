@@ -1,0 +1,15 @@
+/* -----------------------------------------------------------------------------------
+
+Body Content (Organism)
+
+------------------------------------------------------------------------------------*/
+
+.o-body-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+    margin: 30px 0;
+}

@@ -1,0 +1,40 @@
+/* -----------------------------------------------------------------------------------
+
+Footer (Template)
+
+------------------------------------------------------------------------------------*/
+
+.t-footer {
+    min-height: 40px;
+    padding: 10px 0;
+
+    a {
+        margin: 0 5px;
+        color: $color-gray;
+
+        &:hover {
+            color: $color-gray;
+        }
+    }
+}
+
+.t-footer--gray {
+    background: $color-soft-gray;
+    border-top: 1px solid $color-soft-gray-two;
+}
+
+.t-footer--full-width {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .t-footer__content {
+        width: 100%;
+        margin-bottom: 10px;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

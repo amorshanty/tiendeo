@@ -1,0 +1,46 @@
+/* -----------------------------------------------------------------------------------
+
+Header (Template)
+
+------------------------------------------------------------------------------------*/
+
+.t-header {
+    height: 44px;
+}
+
+.t-header--brand {
+    height: 44px;
+    background-color: $color-brand;
+}
+
+.t-header-white {
+    background: $color-white;
+}
+
+.t-header-full-width {
+    width: 100%;
+}
+
+.t-header__content {
+    height: 100%;
+    padding: 12px 0;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+        margin-right: 12px;
+        color: $color-white;
+
+        &:hover {
+            color: $color-brand-hover;
+            text-decoration: none;
+        }
+    }
+} 
+
+@media only screen and (max-width:768px) {
+
+    .t-header {
+        height: 100%;
+    }
+}
